@@ -1,0 +1,11 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#cmakedefine RESOURCE_DIR @RESOURCE_DIR@
+
+#define TO_STRING_2(x) # x
+#define TO_STRING(x) TO_STRING_2(x)
+
+#define IN_RESOURCE_DIR(path) TO_STRING(RESOURCE_DIR ## /path)
+
+#endif

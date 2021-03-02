@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*
+{
+	font-family: Arial;
+	font-size: 30px;
+}
+
+table.HTMLTable
+{
+	border: 3px solid;
+	margin: auto;
+	border-spacing: 0px;
+}
+
+tr.HTMLTableHeader
+{
+	background-color: #FFFF00;
+	text-align: center;
+}
+
+td
+{
+	padding: 10px;
+	border: 1px solid;
+}

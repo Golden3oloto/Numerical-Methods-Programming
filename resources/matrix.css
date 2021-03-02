@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*
+{
+	font-family: Arial;
+	font-size: 30px;
+}
+
+
+
+table.HTMLTable
+{
+	margin: auto;
+	margin-top: 30px;
+	border: 4px solid;
+	border-radius: 18px;
+	border-bottom: #FFFFFF;
+	border-top: #FFFFFF;
+}
+tr.HTMLTableHeader
+{
+	display: none;
+}
+td
+{
+	padding: 10px;
+}
+
+
+
+div.merge
+{
+	display: flex;
+}
+.merge > .first
+{
+	float: left;
+	border-radius: 18px 0px 0px 18px;
+	
+	border: 4px solid;
+	border-bottom: #FFFFFF;
+	border-top: #FFFFFF;
+}
+.merge > .second
+{
+	float: left;
+	border-radius: 0px 18px 18px 0px;
+	
+	border: 4px solid;
+	border-bottom: #FFFFFF;
+	border-top: #FFFFFF;
+	border-left: none;
+}
