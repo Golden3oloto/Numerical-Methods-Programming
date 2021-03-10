@@ -14,3 +14,7 @@ add_subdirectory(include)
 
 add_subdirectory(laba_3)
 add_subdirectory(laba_4)
+add_subdirectory(laba_5)
+add_subdirectory(laba_6)
+add_subdirectory(laba_7)
+add_subdirectory(laba_8)
